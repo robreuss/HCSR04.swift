@@ -6,7 +6,7 @@ let package = Package(
       products: [
         .library(
             name: "HCSR04",
-            targets: ["HCSR04"]),
+            targets: ["HCSR04"],),
         ],  
     dependencies: [
         .package(url: "https://github.com/robreuss/SwiftyGPIO.git", from: "2.0.0"),
