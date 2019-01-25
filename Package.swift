@@ -1,10 +1,10 @@
-// swift-tools-version:3.1
+// swift-tools-version:4.0
 import PackageDescription
 
 let package = Package(
     name: "HCSR04",
     
     dependencies: [
-        .Package(url: "https://github.com/uraimo/SwiftyGPIO.git", majorVersion: 0),
+        .package(url: "https://github.com/robreuss/SwiftyGPIO.git", from: "1.0.0"),
         ]
 )
