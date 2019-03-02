@@ -11,7 +11,7 @@ let package = Package(
             targets: ["HCSR04"] ),
         ],
     dependencies: [
-        .package(url: "https://github.com/robreuss/SwiftyGPIO.git", from: "1.0.10"),
+        .package(url: "https://github.com/Kaiede/SwiftyGPIO.git", from: "1.0.10"),
         
     ],
     targets: [
